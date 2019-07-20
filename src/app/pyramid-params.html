@@ -1,0 +1,4 @@
+<nav class="centered">
+    Pyramid size = <input type="number" [(ngModel)]="sizeModel" /> <button type="submit" class="btn btn-success" (click)="newPyramid()">New</button>
+</nav>
+<div *ngIf="valid == false" [innerText]="message" class="centered"></div>
