@@ -6,7 +6,7 @@
   </div>
   <div class="nowrap">
     <div *ngFor="let row of rows" class="centered">
-      <span *ngFor="let str of row" [innerText]="str" class="num-box"
+      <span *ngFor="let num of row" [innerText]="num" class="num-box"
             (mouseenter)="hoverNum = num"
             (mouseleave)="hoverNum = ''"></span>
     </div>
